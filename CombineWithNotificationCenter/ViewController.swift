@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     private lazy var bookName: UILabel = {
         let bookName = UILabel()
         bookName.translatesAutoresizingMaskIntoConstraints = false
-        bookName.draw(CGRect(x: 0, y: 0, width: 5, height: 0))
         bookName.layer.borderWidth = 1
         bookName.layer.borderColor = UIColor.blue.cgColor
         bookName.textColor = .brown
